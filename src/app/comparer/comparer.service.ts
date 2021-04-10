@@ -6,7 +6,7 @@ import { compare, Operation } from 'fast-json-patch';
 })
 export class ComparerService {
 
-  public Equals<T>(source: T, target: T): boolean {
+  public equals<T>(source: T, target: T): boolean {
     const patch: Array<Operation> = compare(source, target);
     return patch.length === 0;
   }

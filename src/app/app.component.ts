@@ -16,7 +16,6 @@ export class AppComponent implements OnInit {
   resultEqualsAC: boolean;
 
   constructor(private _comparerService: ComparerService) {
-
   }
 
   ngOnInit(): void {
@@ -37,7 +36,7 @@ export class AppComponent implements OnInit {
     };
 
     // comparing
-    this.resultEqualsAB = this._comparerService.Equals(this.objectA, this.objectB);
-    this.resultEqualsAC = this._comparerService.Equals(this.objectA, this.objectC);
+    this.resultEqualsAB = this._comparerService.equals(this.objectA, this.objectB);
+    this.resultEqualsAC = this._comparerService.equals(this.objectA, this.objectC);
   }
 }

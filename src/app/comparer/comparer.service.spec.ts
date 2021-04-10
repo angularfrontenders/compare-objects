@@ -17,13 +17,13 @@ describe('ComparerService', () => {
   it('are equal objects', () => {
     const A: any = { id: 1 };
     const B: any = { id: 1 };
-    expect(service.Equals(A, B)).toBeTrue();
+    expect(service.equals(A, B)).toBeTrue();
   });
 
   it('are different objects', () => {
     const A: any = { id: 1 };
     const B: any = { id: 2 };
-    expect(service.Equals(A, B)).toBeFalse();
+    expect(service.equals(A, B)).toBeFalse();
   });
 
 });

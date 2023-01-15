@@ -1,3 +1,5 @@
+Important: This repository was moved to an Nx monorepo at https://github.com/angularfrontenders/monorepo
+
 # CompareObjects
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.2.5.
